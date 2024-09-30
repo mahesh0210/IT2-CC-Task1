@@ -1,0 +1,116 @@
+/* Modern styling for body */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Fresh gradient background */
+}
+
+.container {
+    text-align: center;
+}
+
+.weather-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.weather-card:hover {
+    transform: translateY(-10px); /* Subtle hover effect */
+}
+
+/* Title styles */
+.app-title {
+    font-size: 2.2rem;
+    color: #333;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.app-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+/* Input section styling */
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#city-input {
+    padding: 12px;
+    width: 65%;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#city-input:focus {
+    outline: none;
+    border-color: #6a1b9a; /* Modern purple focus color */
+}
+
+#city-input-btn {
+    padding: 12px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#city-input-btn:hover {
+    background-color: #4a148c; /* Darker shade on hover */
+}
+
+/* Weather info section */
+#weather-info {
+    display: none;
+    margin-top: 20px;
+}
+
+#weather-icon {
+    width: 80px;
+    height: 80px;
+}
+
+#temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #6a1b9a;
+}
+
+#description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#wind-speed,
+#date {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.mahesh {
+    margin-bottom: 0px;
+}
